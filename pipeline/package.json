@@ -1,0 +1,19 @@
+{
+  "name": "script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "open index.html",
+    "test": "node app.spec.js",
+    "build": "gulp"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^3.0.0",
+    "open": "0.0.5"
+  }
+}
