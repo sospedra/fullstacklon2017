@@ -1,0 +1,21 @@
+{
+  "name": "script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "open index.html",
+    "test": "node app.spec.js",
+    "build": "webpack app.js build/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "open": "0.0.5",
+    "webpack": "^3.0.0"
+  },
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  }
+}
