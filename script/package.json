@@ -1,0 +1,15 @@
+{
+  "name": "script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "open index.html",
+    "test": "node app.spec.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "open": "0.0.5"
+  }
+}
