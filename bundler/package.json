@@ -12,6 +12,7 @@
   "license": "ISC",
   "devDependencies": {
     "open": "0.0.5",
+    "proxyquire": "^1.8.0",
     "webpack": "^3.0.0"
   },
   "dependencies": {
