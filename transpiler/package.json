@@ -1,0 +1,21 @@
+{
+  "name": "script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "open index.html",
+    "test": "node app.spec.js",
+    "prebuild": "mkdirp build",
+    "build": "babel app.js -o build/app.js --presets=react"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "mkdirp": "^0.5.1",
+    "open": "0.0.5"
+  },
+  "dependencies": {}
+}
