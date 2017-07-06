@@ -7,7 +7,8 @@
     "start": "open index.html",
     "test": "node app.spec.js",
     "prebuild": "mkdirp build",
-    "build": "babel app.js -o build/app.js --presets=react"
+    "build": "babel app.js -o build/app.js --presets=react",
+    "postbuild": "uglifyjs build/app.js -o build/app.js"
   },
   "author": "",
   "license": "ISC",
